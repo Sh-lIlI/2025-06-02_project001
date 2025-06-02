@@ -7,7 +7,7 @@ import pandas as pd
 
 st.title("진주시 CCTV 현황")
 
-df = pd.read_csv("/workspaces/2025-06-02_project001/jinju_cctv_20250513_utf8.csv", encoding='utf-8')
+df = pd.read_csv("jinju_cctv_20250513_utf8.csv", encoding='utf-8')
 
 st.dataframe(df, height=200)
 
