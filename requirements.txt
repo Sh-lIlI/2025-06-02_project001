@@ -1,2 +1,5 @@
 streamlit
 streamlit_folium
+folium
+folium.plugins
+pandas
